@@ -1,11 +1,20 @@
 <script>
+//ทำด้วยตัวเองเลยนะ คิด 2 ที
 let person = prompt("Please enter your name", "");
 
 if (person === "Admin") {
     let password = prompt("Please enter your password","");
     if (password === "codecamp#5") {
         alert("ยินดีต้อนรับ");
-    } else if (password === "" )
-    )
+    } else if (password === "" ) {
+        alert("ยกเลิก");
+    } else {
+        alert("wrong password");
+    }
+    
+} else if(person === "") {
+    alert("ยกเลิก");
+} else {
+    alert("ผมไม่รู้จักคุณ");
 }
 </script>
